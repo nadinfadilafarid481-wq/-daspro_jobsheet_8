@@ -43,7 +43,7 @@ public class NilaiKelompok26 {
             
             System.out.println("==============================");
             System.out.println("Kelompok terbaik : " + kelompokTerbaik);
-            System.out.println("Rata-rata tertinggi : " + rataTertinggi);
+            System.out.println("rata-rata tertinggi : " + rataTertinggi);
 
         }
         sc.close();
