@@ -9,13 +9,23 @@ public class Triangle26 {
 
         int i = 0;
         while (i <= n){
-            System.out.print("[i=" + i + "] "); //debug sementara
             int j = 0;
             while (j < i) {
                 System.out.print("*");
                 j++;
             }
+            System.out.println();
             i++;
+        }
+        i = n;
+        while (i >= 1) {
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i--;
         }
         sc.close();
 
